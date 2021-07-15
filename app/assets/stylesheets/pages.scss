@@ -1,3 +1,171 @@
+#header {
+  width: 100%;
+  margin: 10;
+}
+
+.arck-logo {
+  font-style: italic;
+  font-weight: 800;
+}
+
+.arck-logo:hover {
+  text-decoration: none;
+}
+
+.header-inner {
+  height: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  // float: left;
+  width: 100%;
+  display: flex;
+  
+  h1 {
+    margin: 38px 0 0 0;
+    float: left;
+  }
+  
+  // .arck-logo {
+  //   font-style: italic;
+  //   font-weight: 800;
+  // }
+  
+  // .arck-logo:hover {
+  //   text-decoration: none !important;
+  // }
+}
+
+nav {
+  margin: 38px 0 0 0;
+  min-width: 100%;
+  float: right;
+  margin-right: auto !important;
+  padding: 3px;
+}
+
+ul {
+  float: right;
+  // padding: 0;
+  // margin: 0 5px 0 0;
+  // line-height: 0;
+  li {
+  padding: 10;
+  padding-bottom: 10;
+  // margin: 0;
+  list-style: none;
+  display: inline-block;
+  
+    a {
+      font-size: 18px;
+      padding: 10px;
+      position: relative;
+    }
+  }
+}
+
+.register-btn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: double 4px #67c5ff;
+  border-radius: 10px;
+  transition: .4s;
+}
+
+.register-btn:hover {
+  color: white;
+  background: #67c5ff;
+  text-decoration: none;
+}
+
 h1 {
-  color: red;
+  margin: 38px 0 0 0;
+  // color: #c71585;
+}
+
+
+.slides {
+  width: 100%;
+  height: 500px;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  
+  .slide-show {
+    background-image: image-url('pic-1.jpg');
+    background-size: cover;
+    min-height: 540px;
+  }
+
+  .slide-show2 {
+    background-image: image-url('pic-2.jpg');
+    background-size: cover;
+    min-height: 540px;
+  }
+    
+  .slide-show3 {
+    background-image: image-url('pic-3.jpg');
+    background-size: cover;
+    min-height: 540px;
+  }
+  // li {
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   background-position: center center;
+  // }
+}
+
+.slide-inner-text {
+  color: white;
+}
+
+.arck-top-container {
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.introdution-section {
+  height: 80vh;
+}
+
+.services {
+  height: 60vh;
+  position: relative;
+}
+
+.recent-from-blog {
+  height: 80vh;
+}
+
+.recent-from-article {
+  height: 80vh;
+}
+
+.recent-from-news {
+  height: 80vh;
+}
+
+.bottom-btn-register {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: double 4px #67c5ff;
+  border-radius: 10px;
+  transition: .4s;
+}
+
+.bottom-btn-register:hover {
+  color: white;
+  background: #67c5ff;
+  text-decoration: none;
+}
+
+footer {
+  height: 40vh;
 }
